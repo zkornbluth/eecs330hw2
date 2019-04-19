@@ -1,0 +1,211 @@
+/*
+	Global classes
+					*/
+body {
+	background-image: url("images/iphoneOL.jpg");
+	background-repeat: no-repeat;
+	font-family: Avenir, sans-serif;
+}
+
+
+#screen {
+	height: 530px;
+	width: 300px;
+	margin: 105px 23px;
+}
+
+.head-bar {
+	font-family: sans-serif;
+	background-color: fuchsia;
+	color: white;
+	height: 45px;
+	text-shadow: 2px 2px black;
+}
+
+.back-button {
+	background-color: beige;
+	border: 2px solid #eeeeef;
+	position: relative;
+	left: 10px;
+	top: 10px;
+	width: 30px;
+	text-shadow: none;
+	text-align: center;
+	color: black;
+}
+
+/*
+	Albums
+			*/
+.albums-album-wrapper {
+	width: 150px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	float: left;
+}
+
+.albums-album-art {
+	width: 130px;
+}
+
+.albums-album-name {
+	font-weight: bold;
+	margin-top: 10px;
+	font-size: 18px;
+}
+
+.albums-artist-name {
+	font-style: italic;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#albums-head-bar {
+	text-align: center;
+}
+
+/*
+	Songs
+			*/
+.songs-info-wrapper {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.songs-album-art {
+	width: 145px;
+	height: 145px;
+	float: left;
+}
+
+.songs-album-name {
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+.songs-artist-name {
+	margin-top: 15px;
+	font-style: italic;
+}
+
+.songs-text-info {
+	float: left;
+	width: 135px;
+	text-align: left;
+	margin-left: 10px;
+}
+
+.songs-album-year {
+	margin-top: 15px;
+}
+
+.songs-list {
+	float: left;
+}
+
+.songs-list-item {
+	border: 2px solid #cccccc;
+	width: 100%;
+	margin-top: 5px;
+	font-size: 15px;
+	padding-left: 1px;
+}
+
+/*
+	Player
+			*/
+.player-album-art {
+	margin-top: 30px;
+	width: 220px;
+	height: 220px;
+}
+
+.player-song-info {
+	text-align: center;
+}
+
+.player-song-wrapper {
+	text-align: center;
+}
+
+#player-song-name {
+	font-size: 18px;
+	margin-top: 10px;
+	height: 30px;
+}
+
+.player-song-details {
+	color: #0000AA;
+}
+
+.volume-bar {
+	width: 100%;
+	text-align: center;
+}
+
+.player-controls{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.player-volume {
+	height: 6px;
+	width: 24px;
+	border: 1px solid black;
+	margin-left: 2px;
+	margin-right: 2px;
+	display: inline-block;
+}
+
+#time-elapsed {
+	text-align: center;
+	width: 100%;
+}
+
+#time-total{
+
+}
+
+#player-start {
+	text-align: left;
+	float: left;
+	width: 40%;
+	margin-left: 30px;
+}
+
+#player-end {
+	text-align: right;
+	float: right;
+	width: 40%;
+	margin-right: 30px;
+}
+
+.player-times {
+	width: 100%;
+	text-align: center;
+}
+
+#time-slider {
+	width: 80%;
+}
+
+#volume_icon {
+	display: inline-block;
+	font-size: 20px;
+}
+
+.volume-control {
+	width: 100px;
+	display: inline-block;
+	margin: 10px;
+
+}
+
+.vol-buttons {
+	text-align: center;
+}

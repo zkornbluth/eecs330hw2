@@ -1,0 +1,53 @@
+<html>
+<header>
+   <title>Music Player</title>
+   <link rel="stylesheet" type="text/css" href="ipod.css"/>
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</header>
+<body>
+   <div id="screen">
+     <div class="head-bar">
+       <a href="songs.html">
+         <div class="back-button">&larr;</div>
+       </a>
+   </div>
+   <div class="player-song-wrapper"><img src="images/backinblack.jpg" class="player-album-art" alt="Back in Black Album Cover"/>
+   <div class="player-song-info">
+      <div id="player-song-name">Back In Black</div>
+      <div class="player-song-details"><em>Back In Black</em> - AC/DC</div>
+   </div>
+   </div>
+   <div id="time-elapsed">
+     <input id="time-slider" type="range" value=0 min=0 max=180 oninput="checkSlider()">
+   </div>
+   <div class="player-times">
+     <div id="player-start">0:00</div>
+     <div id="player-end">3:00</div>
+   </div>
+   <div class="player-controls">
+      <button onclick="prevSong()"><i class="material-icons">skip_previous</i></button>
+      <button onclick="switchPlay()"><i class="material-icons" id="play-button">play_arrow</i></button>
+      <button onclick="nextSong()"><i class="material-icons">skip_next</i></button>
+   </div>
+   <div class="volume-bar">
+      <i class="material-icons" id="volume_icon">volume_down</i>
+      <div id="vl0" class="player-volume"></div>
+      <div id="vl1" class="player-volume"></div>
+      <div id="vl2" class="player-volume"></div>
+      <div id="vl3" class="player-volume"></div>
+      <div id="vl4" class="player-volume"></div>
+      <div id="vl5" class="player-volume"></div>
+   </div>
+   <div class="vol-buttons">
+     <button onclick="volDown()" class="volume-control">&mdash;</button>
+     <button onclick="volUp()" class="volume-control">+</button>
+   </div>
+
+</div>
+<script src="ipod.js"></script>
+</body>
+</html>
+<!--
+* bg iphone img is 363x762px
+* iphone 'screen' is apprx 300x530 -->
