@@ -211,3 +211,8 @@ a {
 .vol-buttons {
 	text-align: center;
 }
+
+a li {
+	color: blue;
+	text-decoration: underline;
+}
